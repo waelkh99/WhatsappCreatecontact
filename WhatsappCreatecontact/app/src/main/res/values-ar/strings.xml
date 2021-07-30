@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whatsapp Create contact</string>
+    <string name="open_conversation">افتح محادثة</string>
+    <string name="gift_cards">صور معايدات</string>
+    <string name="start">افتح محادثة</string>
+    <string name="number_TV">ادخل الرقم</string>
+    <string name="send_location">ارسل الموقع الحالي</string>
+    <string name="busy">مشغول</string>
+    <string name="coming">انا قادم</string>
+
+
+
+</resources>

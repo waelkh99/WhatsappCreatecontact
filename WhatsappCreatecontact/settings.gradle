@@ -1,0 +1,2 @@
+rootProject.name = "Whatsapp Create contact"
+include ':app'

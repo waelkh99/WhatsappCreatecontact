@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "11482694243",
+    "firebase_url": "https://whatsapp-chat-starter-f10e0-default-rtdb.firebaseio.com",
+    "project_id": "whatsapp-chat-starter-f10e0",
+    "storage_bucket": "whatsapp-chat-starter-f10e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11482694243:android:1d4092e1e57429422a2e56",
+        "android_client_info": {
+          "package_name": "com.example.whatsappcreatecontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11482694243-tdnbv8uhfnsktb2ubjbl114sp08cfml0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPNvi_IvI-tT2-UW77OrxZan0VwBmb7F4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11482694243-tdnbv8uhfnsktb2ubjbl114sp08cfml0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

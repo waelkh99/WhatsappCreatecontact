@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Whatsapp Create contact</string>
+    <string name="open_conversation">Open Conversation</string>
+    <string name="gift_cards">Gift Cards</string>
+    <string name="start">Open Conversation</string>
+    <string name="number_TV">Enter number</string>
+    <string name="send_location">Send Current Location</string>
+    <string name="busy">I am busy</string>
+    <string name="coming">I am coming</string>
+
+</resources>

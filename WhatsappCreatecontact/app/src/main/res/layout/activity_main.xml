@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/flag_transparent"
+            android:textColor="#075E54"
+            android:text="@string/open_conversation" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/wallpaperBtn"
+            android:layout_weight="1"
+            android:background="@drawable/flag_transparent"
+            android:text="@string/gift_cards" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2.6">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentRB"
+            android:text="@string/send_location"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/comingRB"
+            android:text="@string/coming"
+            android:textColor="@color/white"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/busyRB"
+            android:text="@string/busy"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_TV"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/country_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center|center_vertical"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            app:ccp_contentColor="@color/white"
+            app:ccp_autoDetectCountry="true"
+            android:layout_weight="0.1"
+            app:ccp_showNameCode="false"/>
+
+        <EditText
+            android:id="@+id/contactET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2.9" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#075E54"
+        android:backgroundTint="#075E54"
+        android:text="@string/start"
+        app:backgroundTint="#075E54" />
+
+</LinearLayout>
